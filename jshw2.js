@@ -82,3 +82,39 @@ const stringLength = async () => {
 }
 
 stringLength('Okie dokie alci we keep it low key like Thor lil bro')
+
+
+// Your task is to make two functions ( max and min, or maximum and minimum, etc., depending on the language ) that receive a list of integers as input, and return the largest and lowest number in that list, respectively.
+
+// var min = function(list){
+//     list.sort(function(a, b){
+//         return a - b
+//     })
+//     return list[0];
+// }
+
+// var max = function(list){
+//     list.sort(function(a, b){
+//         return a - b
+//     })
+//     list.reverse()
+//     return list[0];
+// }
+
+
+// Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
+
+// The output should be two capital letters with a dot separating them.
+
+// It should look like this:
+
+// Sam Harris => S.H
+
+// patrick feeney => P.F
+
+// function abbrevName(name){
+  
+//     const arr = name.split(" ");
+//     return arr[0][0].toUpperCase() + '.' + arr[1][0].toUpperCase()
+
+// }
